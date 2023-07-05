@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: linear-gradient(256deg, rgba(113, 60, 215, 1) 1%, rgba(0, 206, 209, 1) 59%);
+  font-family: sans-serif;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.bg-green {
+  background-color: #008000;
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+  color: black;
+}
+
+/* You can adjust this as per your needs */
+.card {
+  margin: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
